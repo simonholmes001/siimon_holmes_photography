@@ -1,0 +1,43 @@
+pagetitle: "Simon Holmes Photography"
+
+##### nav bar #####
+
+navbar:
+  - "about"
+  - "shop"
+  - "contact"
+  - "events"
+  - "blog"
+brand: "XXX"
+
+####### home #######
+
+intro: 
+  title1 : "fine art"
+  title2 : "black & white photography"
+  title3 : 
+    - "XXX"
+    - "XXX"
+    - "XXX"
+    - "XXX"
+
+####### recipes #######
+
+
+
+recipes:
+- recipe: "Ragu"
+  preparation_time : "10 minutes"
+  cooking_time : "min: 40 minutes but can cook for hours"
+  difficulty : "2 / 5"
+  ingredients :
+    - "asdasdaf"
+    - "asdadasd"
+  method : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam deserunt in incidunt et, impedit necessitatibus?   Et perferendis pariatur voluptatum voluptate, quasi cum error repellendus quibusdam rem reiciendis repudiandae expedita nam     explicabo mollitia nobis hic temporibus officiis dicta harum a iure facilis veritatis! Odit debitis eaque excepturi       doloremque dignissimos rem atque provident exercitationem, eum corporis, fuga accusantium quia praesentium dolorum aut nisi perspiciatis numquam enim unde aliquam iusto, ipsa illum velit iste. Delectus sed fugiat libero vero, iste, voluptatum ut odit dolorem illum, placeat unde! Asperiores quod consequatur quaerat praesentium esse fugiat eos, eligendi animi maxime ea inventore fugit similique harum est eveniet ab, alias quos debitis explicabo illo accusantium assumenda! Eaque numquam ut voluptatem magni fuga mollitia, placeat at asperiores veniam reiciendis quo optio sunt harum? Deserunt sint, earum quasi fugit culpa rerum quia nobis voluptas necessitatibus repudiandae. Quisquam maxime atque eligendi reprehenderit eum molestiae similique accusamus impedit cupiditate eius, quia animi sed itaque nulla laboriosam neque? Esse ipsum, earum eos rerum, magnam sapiente veritatis quod repudiandae minus iste harum. Officia, eius voluptates distinctio, excepturi eaque accusantium saepe sint perspiciatis ipsam unde explicabo omnis labore pariatur sequi! Consequuntur, iure explicabo minima, distinctio quibusdam magnam dicta modi delectus maiores, dolores rem."
+  tags : 
+    - "pasta"
+    - "italian"
+  photo_url : '../assets/img/AdobeStock_11018469.jpg' 
+  video_url : 'https://asdhkajhdkjahdjkahdj' 
+
+

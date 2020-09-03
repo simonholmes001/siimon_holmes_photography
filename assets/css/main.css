@@ -1,0 +1,301 @@
+/* Start css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+	width: 100%;
+	height: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+/* End css reset */
+/* =================== start of navbar =================== */
+
+
+/* =================== end of navbar =================== */
+
+body {
+ font-family: 'Spartan', sans-serif;
+ }
+
+/* =================== start of home =================== */
+
+/* .hero {
+	width: 100%;
+	height: 100%;
+	min-width: 100%;
+	min-height: 100%;
+	position: relative;
+}
+
+.flex-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.hero::before {
+	background-image: url(../img/img_1.jpeg);
+	background-size: cover;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: -2;
+	opacity: 1;
+}
+
+.hero::after {
+	background-color: #040359;
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: 100%;
+	height: 40%;
+	z-index: -1;
+	opacity: 0;
+	margin-top: 20rem;
+}
+
+.flex-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.not-hero {
+	width: 100vw;
+	height: 10em;
+}
+
+.bg-info {
+	background-color: #17a2b8;
+	color: #fff;
+}
+
+.not-hero-message {
+	color: #fff;
+	text-shadow: #343a40 2px 2px;
+	min-width: 50%;
+	min-height: 7em;
+}
+
+.hero-message {
+	color: #fff;
+	text-shadow: #343a40 2px 2px;
+	min-width: 100%;
+	min-height: 12em;
+	position: relative;
+	padding: 50px;
+}
+
+.adj {
+	margin-top: 20rem;
+}
+
+.hero-title,
+.hero-sub-title {
+				width: 100%;
+				display: block;
+				text-align: center;
+				font-size: 3rem;
+}
+
+.hero-title {
+				margin: 1% 0;
+}
+
+@media(min-width:1024px) {
+	.hero-message {
+					min-width: 50%;
+					min-height: 12em;
+	}
+	.hero-message::before {
+					margin-left: 25%;
+					min-width: 50%;
+					min-height: 12em;
+	}
+}
+
+@media (min-width: 320px) {
+	.hero::before {
+					background-image: url(../img/img_1.jpeg);
+	}
+}
+
+@media (min-width: 460px) {
+	.hero::before {
+					background-image: url(../img/img_1.jpeg);
+	}
+}
+
+@media (min-width: 720px) {
+	.hero::before {
+					background-image: url(../img/img_1.jpeg);
+	}
+}
+
+@media (min-width: 980px) {
+	.hero::before {
+					background-image: url(../img/img_1.jpeg);
+	}
+}
+
+@media (min-width: 1240px) {
+	.hero::before {
+					background-image: url(../img/img_1.jpeg);
+	}
+}
+
+@media (min-width: 1500px) {
+	.hero::before {
+					background-image: url(../img/img_1.jpeg);
+	}
+}
+
+@media (min-width: 1760px) {
+	.hero::before {
+					background-image: url(../img/img_1.jpeg);
+	}
+} */
+
+
+#home {
+		background-image: url("../img/img_1.jpeg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 100vh;
+		position: relative;
+		display: block;
+}
+
+.header {
+	padding-top: 17rem;
+	padding-left: 6rem;
+}
+
+.title1 {
+	font-size: 4rem;
+	font-weight: 500;
+	color: whitesmoke;
+	padding-bottom: 8px;
+	letter-spacing: 2px;
+}
+
+.title2 {
+	font-size: 4rem;
+	font-weight: 500;
+	color: whitesmoke;
+	padding-bottom: 20px;
+	border-bottom: 4px solid rgb(159, 0, 0);
+	position: relative;
+	letter-spacing: 2px;
+}
+
+.title3 {
+	font-size: 3rem;
+	font-weight: 400;
+	color: whitesmoke;
+	padding-top: 3%;
+	letter-spacing: 2px;
+}
+
+/* =================== end of home =================== */
+
+/* =================== start of recipes =================== */
+
+.recipe_name {
+	font-size: 1.4rem;
+	font-weight: 400;
+	color: rgb(55, 9, 101);
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	/* padding-left: 5rem; */
+	letter-spacing: 2px;
+	margin-top: 35px;
+	/* margin: 50px;
+	margin-top: 10px;
+	margin-left: 20px; */
+}
+
+.main_images {
+height: 70%;
+width: 70%;
+border-radius: 60%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+/* margin-left: 20px;
+padding-left: 5rem; */
+/* margin: 10%; */
+/* margin-bottom: 10%; */
+}
+
+/* =================== end of recipes =================== */
+
+/* =================== end of recipe listing =================== */
+
+.recipe {
+	font-size: 1rem;
+	font-weight: 400;
+	color: rgb(55, 9, 101);
+	letter-spacing: 2px;
+	line-height: 170%;
+	margin-top: 5%;
+	padding: 2.5%;
+}
+
+/* =================== end of recipe listing =================== */
+
+/* =================== TEXT ANIMATION CSS =================== */
+
+
+/* =================== TEXT ANIMATION CSS =================== */

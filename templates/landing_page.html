@@ -1,0 +1,29 @@
+{{ define "landing"}}
+
+{{template "head" .}}
+
+<body>
+
+<section class="header" id="home">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-6">
+               <h1 class="title1">{{ .Intro.Title1 }}</h1>
+               <h1 class="title2">{{ .Intro.Title2 }}</h1>
+          </div>
+        </div>
+        <div class="animated-text">
+          <strong class="cd-headline clip">
+            <span class="cd-words-wrapper">
+        {{ range .Intro.Title3 }}
+        <p class="title3">{{ . }}</p>
+        {{end}}
+  </div>
+</section>
+
+
+{{ end }}
+
+</body>
+</html>
+
