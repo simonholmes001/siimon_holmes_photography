@@ -2,6 +2,7 @@
 
 ### Branch: navbar
 - [ ] Decide on navbar headers
+- [ ] Style navbar headers
 
 ### Branch: landing page
 - [ ] 
@@ -11,9 +12,9 @@
 - [ ] 
 - [ ] 
 
-### Branch: recipes
-- [ ] 
-- [ ] 
+### Branch: about
+- [ ] Write about
+- [ ] Style about
 - [ ] 
 - [ ] 
 - [ ] 
