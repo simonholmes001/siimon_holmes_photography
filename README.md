@@ -5,12 +5,13 @@
 - [ ] Style navbar headers
 
 ### Branch: landing page
-- [ ] 
-- [ ] 
-- [ ]  
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Carousel for main images
+- [ ] Select main images
+- [ ] Title_1
+- [ ] Main title
+- [ ] View image collection button with link to home
+- [ ] Make sure links work when navigating to AND FROM landing page to home page
+- [ ] Social media icons via (footer???)
 
 ### Branch: about
 - [ ] Write about

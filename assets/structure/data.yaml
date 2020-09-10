@@ -1,0 +1,25 @@
+pagetitle: "Simon Holmes Photography"
+
+##### nav bar #####
+
+navbar:
+  - "about"
+  - "shop"
+  - "contact"
+  - "events"
+  - "blog"
+brand: "XXX"
+
+####### home #######
+
+intro: 
+  title1 : "fine art"
+  title2 : "black & white photography"
+  title3 : 
+    - "XXX"
+    - "XXX"
+    - "XXX"
+    - "XXX"
+
+####### XXX #######
+
